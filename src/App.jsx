@@ -5,6 +5,7 @@ import "./index.css";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About"
+import Experience from "./components/Experience/Experience";
 
 function App() {
   //For showing if we are still loading or not
@@ -23,6 +24,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <About/>
+      <Experience/>
 
       </div>
     </div>
