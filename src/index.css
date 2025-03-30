@@ -34,3 +34,7 @@
     animation: blink 0.8s step-end infinite;
   }
 }
+
+html{
+  scroll-behavior: smooth;
+}

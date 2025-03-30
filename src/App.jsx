@@ -4,6 +4,7 @@ import { LoadingScreen } from "./components/LoadingScreen";
 import "./index.css";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
+import About from "./components/About/About"
 
 function App() {
   //For showing if we are still loading or not
@@ -21,6 +22,7 @@ function App() {
       >
       <Navbar/>
       <Hero/>
+      <About/>
 
       </div>
     </div>
