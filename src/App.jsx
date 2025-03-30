@@ -3,6 +3,7 @@ import styles from "./App.module.css";
 import { LoadingScreen } from "./components/LoadingScreen";
 import "./index.css";
 import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
 
 function App() {
   //For showing if we are still loading or not
@@ -18,8 +19,8 @@ function App() {
           isLoaded ? "opacity-100" : "opacity-0"
         } `}
       >
-        
       <Navbar/>
+      <Hero/>
 
       </div>
     </div>
