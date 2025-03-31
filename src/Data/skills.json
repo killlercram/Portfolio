@@ -16,7 +16,35 @@
     "imageSrc": "assets/skills/node.png"
   },
   {
-    "title": "MongoDB",
-    "imageSrc": "assets/skills/mongodb.png"
+    "title": "Docker",
+    "imageSrc": "assets/skills/social.png"
+  },
+  {
+    "title": "Aws",
+    "imageSrc": "assets/skills/aws.png"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "assets/skills/java.png"
+  },
+  {
+    "title": "Linux",
+    "imageSrc": "assets/skills/linux.png"
+  },
+  {
+    "title": "Cloud",
+    "imageSrc": "assets/skills/cloud.png"
+  },
+  {
+    "title": "Sql",
+    "imageSrc": "assets/skills/sql-server.png"
+  },
+  {
+    "title": "GitHub",
+    "imageSrc": "assets/skills/github.png"
+  },
+  {
+    "title": "Bootstrap",
+    "imageSrc": "assets/skills/bootstrap.png"
   }
 ]

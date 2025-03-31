@@ -15,27 +15,27 @@ const Navbar = () => {
         <img
           className={styles.menuBtn}
           src={
-            menuOpen 
-            ? "/assets/nav/closeIcon.png" 
-            : "/assets/nav/menuIcon.png" 
+            menuOpen ? "/assets/nav/closeIcon.png" : "/assets/nav/menuIcon.png"
           }
           alt="Menu Button"
           onClick={() => setMenuOpen(!menuOpen)}
         />
 
-        <ul className={`${menuOpen && styles.menuOpen} ${styles.menuItems} `}
-        onClick={() => setMenuOpen(false)}>
+        <ul
+          className={`${menuOpen && styles.menuOpen} ${styles.menuItems} `}
+          onClick={() => setMenuOpen(false)}
+        >
           <li>
             <a href="#about">About</a>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+            <a href="#experience">Skills</a>
           </li>
           <li>
-            <a href="/project">Project</a>
+            <a href="#project">Project</a>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>
