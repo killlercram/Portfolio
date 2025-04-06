@@ -13,15 +13,15 @@
 }
 
 .text h2{
-  font-size: 80px;
-  font-weight: 700;
-  letter-spacing: 4px;
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 
 .text p{
-  font-size:40px;
-  font-weight: 300;
-  letter-spacing: 2px;
+  font-size:20px;
+  font-weight: 200;
+  letter-spacing: 1px;
 }
 
 .links{
@@ -41,8 +41,8 @@
 .link a {
  color: var(--color-text);
  text-decoration: none;
- font-size:30px;
- font-weight:400;
+ font-size:20px;
+ font-weight:200;
  letter-spacing:1.5px;
 }
 

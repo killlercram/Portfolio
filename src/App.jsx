@@ -7,7 +7,7 @@ import Hero from "./components/Hero/Hero";
 import About from "./components/About/About"
 import Experience from "./components/Experience/Experience";
 import Project from "./components/Project/Project";
-import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   //For showing if we are still loading or not
@@ -28,7 +28,7 @@ function App() {
       <About/>
       <Experience/>
       <Project/>
-      <Contact/> 
+      <Footer/>
 
       </div>
     </div>

@@ -1,13 +1,13 @@
 import React from 'react';
-import styles from "./Contact.module.css";
+import styles from "./Footer.module.css";
 
 
-const Contact = () => {
+const Footer = () => {
   return (
     <footer id='contact' className={styles.conatiner}>
       <div className={styles.text}>
-        <h2>Contact</h2>
-        <p>Feel free to reach out!</p>
+        <h2>Shashwat Tandon</h2>
+        <p>Aspiring Software Developer</p>
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
@@ -29,4 +29,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Footer;

@@ -7,8 +7,8 @@ const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
-      <a href="/" className={styles.title}>
-        Porfolio
+      <a href="#" className={styles.title}>
+        Portfolio
       </a>
       <div className={styles.menu}>
         {/* Adding Image */}
