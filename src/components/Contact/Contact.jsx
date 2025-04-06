@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from "./Footer.module.css";
+import styles from "./Contact.module.css";
 
 
-const Footer = () => {
+const Contact = () => {
   return (
     <footer id='contact' className={styles.conatiner}>
       <div className={styles.text}>
@@ -29,4 +29,4 @@ const Footer = () => {
   )
 }
 
-export default Footer;
+export default Contact;

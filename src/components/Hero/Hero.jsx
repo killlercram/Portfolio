@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from "./Hero.module.css";
+import { Download } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -9,7 +10,12 @@ const Hero = () => {
         <p className={styles.description}>
           I'm a full-stack developer and DevOps Enginner.Reach out if you'd like to learn more!
         </p>
-        <a href="mailto:shashwatandon@gmail.com" className={styles.contactBtn}>Contact Me!</a>
+        <div className={styles.BtnDiv}>
+        <a href="mailto:shashwatandon@gmail.com" className={styles.Btns}>Contact Me!</a>
+        <a href="/assets/cv/Resume.pdf" download className={styles.Btns}>Download Cv
+         </a>
+        </div>
+        
       </div>
       <img src="/assets/hero/heroImage.png" alt="Hero Image" className={styles.heroImg}/>
       <div className={styles.topBlur}></div>
@@ -19,4 +25,4 @@ const Hero = () => {
   );
 }
 
-export default Hero
+export default Hero;
