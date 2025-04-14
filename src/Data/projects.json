@@ -1,26 +1,27 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "assets/projects/project.png",
+    "title": "Rock Paper Scissor",
+    "imageSrc": "assets/projects/rock.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Project B",
-    "imageSrc": "assets/projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Project C",
-    "imageSrc": "assets/projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demo": "https://euphonious-daffodil-344ef9.netlify.app",
+    "source": "https://github.com/killlercram/Rock_Paper_Sessiors"
   }
+  ,{
+    "title": "Chat-Application",
+    "imageSrc": "assets/projects/Chat_app.jpg",
+    "description": "This is a project made to learn the latest languages by building an app.This is a project made to learn the latest languages by building an app.This is a project made to learn the latest languages by building an app.This is a project made to learn the latest languages by building an app.",
+    "skills": ["React","Socket.io", "Express", "Node"],
+    "demo": "https://quick-chat-app-client-sd7m.onrender.com/",
+    "source": "https://github.com/killlercram/Chatting-Application"
+  },
+  {
+    "title": "Note Vault",
+    "imageSrc": "assets/projects/notes.jpg",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Docker", "Zustand", "Tanstack"],
+    "demo": "https://note-vault-app-46pe.onrender.com/",
+    "source": "https://github.com/killlercram/Note_Taking_App"
+  }
+  
 ]
